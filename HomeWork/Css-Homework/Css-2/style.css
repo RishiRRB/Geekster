@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100%;
+}
+nav{
+    height: 6vw;
+    width:100%;
+    display: flex;
+    
+    background-image:linear-gradient(to bottom,black, rgb(38, 36, 36),rgba(21, 20, 20, 0.389)) ;
+    color: white;
+    padding:24px 80px;
+}
+nav h3{
+    margin: 10px 20px;
+}
+nav h3:hover{
+    background-color: white;
+    color:black;
+
+}
+.heroimage{
+    height: 38vw;
+    width: 100vw;
+}
+.heroimage img{
+    height: 100%;
+    width: 100vw;
+}
+main{
+    height: 40vw;
+    width:100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main img{
+    height: 32vw;
+    width: 30vw;
+}
+footer{
+    height: 40vw;
+    width: 100vw;
+    display: flex;
+}
